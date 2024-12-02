@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: linear-gradient(180deg, #424242, #00090E);
+}
+.status.on {
+  display: block;
+}
+
+.status.off {
+  display: none;
+}

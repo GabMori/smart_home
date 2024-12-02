@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+
+.sala-de-estar {
+    display: flex;
+    justify-content: space-around; 
+    width: 100%; 
+    max-width: 1200px; 
+    gap: 20px; 
+}
+
+
+.cozinha {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+
+.dispositivo {
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    flex: 1; 
+    min-width: 250px; 
+    max-width: 300px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+select, input {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 100%;
+}
+
+
+.cozinha p {
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .sala-de-estar, .cozinha {
+        flex-direction: column; 
+        align-items: center;
+    }
+}
